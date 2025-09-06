@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+configs/.env
+data/
+outputs/
+checkpoints/
+*.nii
+*.nii.gz
+.vscode/
