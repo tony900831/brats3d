@@ -1,12 +1,30 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
 .venv/
+env/
 venv/
-.env
-configs/.env
-data/
-outputs/
+*.egg-info/
+
+# Checkpoints & logs
 checkpoints/
-*.nii
-*.nii.gz
+*.pt
+*.pth
+*.ckpt
+
+# Outputs (keep viz & report)
+outputs/*
+!outputs/report.md
+!outputs/val_metrics.json
+!outputs/val_metrics.csv
+!outputs/viz/
+
+# IDE/OS
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
